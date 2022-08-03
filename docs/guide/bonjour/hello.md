@@ -1,0 +1,5 @@
+---
+slug: /bonjour
+---
+
+Lorem ipsum
