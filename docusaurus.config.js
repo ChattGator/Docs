@@ -10,7 +10,9 @@ const config = {
   tagline: "Chat Integration for Everyone",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
-
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "ignore",
+  onDuplicateRoutes: "ignore",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "facebook", // Usually your GitHub org/user name.
@@ -52,7 +54,6 @@ const config = {
             },
           },
           routeBasePath: "/",
-          onBrokenLinks: "ignore",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
